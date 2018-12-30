@@ -47,7 +47,7 @@ class App extends Component {
             defaultCenter={defaultProps.center}
             defaultZoom={defaultProps.zoom}
             bootstrapURLKeys={{
-              key: "AIzaSyC5Cb4AKp_DwWwQyfWg0HwwrglYXs184-o",
+              key: "",
               language: "tr",
               region: "tr"
             }}
