@@ -7,3 +7,9 @@ export async function getUsers() {
   console.log(users.data);
   return users.data;
 }
+
+export async function registerUser(user) {
+  const registerResponse = await axios.post(apiEndpoint, user);
+  console.log(user);
+  return registerResponse.data;
+}
